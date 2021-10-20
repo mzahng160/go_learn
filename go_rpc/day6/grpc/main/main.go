@@ -153,7 +153,7 @@ func main() {
 	addr2 := <-ch2
 
 	time.Sleep(time.Second)
-	//call(addr1, addr2)
+	call(addr1, addr2)
 
 	broadcast(addr1, addr2)
 }
